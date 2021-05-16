@@ -11,7 +11,6 @@ body {
   background: #fafafa;
   font-size: 12px;
   margin-top: 160px;
-  max-width: 100vw;
 }
 p {
   font-family: "Poppins", sans-serif;
@@ -32,7 +31,7 @@ p {
 }
 @media screen and (min-width: 1150px) {
   #navBarSearchForm input[type="search"] {
-    width: 50rem !important;
+    width: 30rem;
   }
 }
 @media screen and (min-width: 1310px) {
@@ -282,34 +281,17 @@ ul ul a {
 ----------------------------------------------------- */
 
 @media screen and (max-width: 991px) {
-  #navBarSearchForm input[type="search"] {
-    display: none;
+    #navBarSearchForm input[type=search] {
+        display: none;
+    }
+    .navbar-custom{
+        display: none;
+    }
+    body{
+        margin-top: 100px;
+        padding: 0px 10px;
+    }
   }
-  .navbar-custom {
-    display: none;
+  .nav-logo{
+      height: 35px!important;
   }
-  body {
-    margin-top: 100px;
-    padding: 0px 10px;
-  }
-  .hide {
-    display: none !important;
-  }
-}
-@media screen and (max-width: 991px) {
-  .tpdl-hide {
-    display: none !important;
-  }
-}
-@media screen and (min-width: 465px) {
-  .home-mbl {
-    justify-content: center;
-  }
-  .cntr {
-    padding-left: 3rem !important;
-  }
-}
-
-.nav-logo {
-  height: 35px !important;
-}
