@@ -4,7 +4,7 @@ import "./Navbar.css"
 import {Link} from "react-router-dom";
 
 const Navbar = () => {
-    $(document).ready(function () {
+    $(function () {
         $('#dismiss, .overlay').on('click', function () {
             $('#sidebar').removeClass('active');
             $('.overlay').removeClass('active');
@@ -64,7 +64,7 @@ const Navbar = () => {
             <div className="sidebar-header"  >
                 <div className="row">
                 <ul className="d-flex">
-                    <li><i className="fas fa-user"></i></li>
+                    <li><i class="fas fa-user-circle"></i></li>
                     <li><h6>Hello, Sign in</h6></li>   
                 </ul> 
                 </div>  
@@ -139,8 +139,8 @@ const Navbar = () => {
            
             <nav className="navbar navbar-custom navbar-expand-lg border-bottom "    >
                 <div className="container-fluid ml-4 pl-4" >
-                    <a ><img src="./navimgs/location.png" alt=""/></a>
-                    <div className="delivery_content"> Deliver to                 
+                    <i className="fas fa-map-marker-alt"></i>
+                    <div className="delivery_content"> Deliver to                         
                         <span id="delivery_details">
                             <a><span><b> 400020</b></span></a>
                         </span>
