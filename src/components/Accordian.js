@@ -34,7 +34,9 @@ const Accordian = (props) => {
                             <Collapse isOpen={isOpen1}>
                             <Card>
                                 <CardBody>
-                                <ul><li>Fresh Fruits</li><li>Fresh Vegetables</li><li>Herbs & Seasonings</li><li>Exotic Fruits and Vegetables</li></ul>
+                                <ul>
+                                <li><a href="/content?category=fruits_vegetables&sub_category=fresh_fruits">Fresh Fruits</a></li>
+                                <li>Fresh Vegetables</li><li>Herbs & Seasonings</li><li>Exotic Fruits and Vegetables</li></ul>
                                 </CardBody>
                             </Card>
                             </Collapse>
@@ -50,7 +52,9 @@ const Accordian = (props) => {
                             <Collapse isOpen={isOpen3}>
                             <Card>
                                 <CardBody>
-                                <ul><li>Atta, Flours & Sooji</li><li>Dals & Pulses</li><li>Rice & Rice Products</li><li>Edible Oils</li><li>Masalas & Spices</li><li>Salt, Sugar & Jaggery</li><li>Soya Products,<br/> Wheat & Other Grains</li><li>Dry Fruits & Nuts</li></ul>
+                                <ul><li>Atta, Flours & Sooji</li><li>Dals & Pulses</li><li>Rice & Rice Products</li><li>Edible Oils</li><li>Masalas & Spices</li><li>Salt, Sugar & Jaggery</li><li>Soya Products,<br/> Wheat & Other Grains</li>
+                                <li><a href="/content?category=staples&sub_category=dry_fruits">Dry Fruits & Nuts</a></li>
+                                </ul>
                                 </CardBody>
                             </Card>
                             </Collapse>
@@ -66,7 +70,9 @@ const Accordian = (props) => {
                             <Collapse isOpen={isOpen5}>
                             <Card>
                                 <CardBody>
-                                <ul><li>Tea</li><li>Coffee</li><li>Fruit juices</li><li>Energy & Soft Drinks</li><li>Health Drink & Supplement</li><li>Soda & Flavoured Water</li></ul>
+                                <ul>
+                                <li><a href="/content?category=beverages&sub_category=tea">Tea</a></li>
+                                <li>Coffee</li><li>Fruit juices</li><li>Energy & Soft Drinks</li><li>Health Drink & Supplement</li><li>Soda & Flavoured Water</li></ul>
                                 </CardBody>
                             </Card>
                             </Collapse>
@@ -75,7 +81,7 @@ const Accordian = (props) => {
                             <Card>
                                 <CardBody>
                                 <ul>
-                                    <li><a className="dropdown-item" href="/content?category=personal_care&sub_category=hair_care"> Hair Care</a></li>
+                                    <li><a href="/content?category=personal_care&sub_category=hair_care">Hair Care</a></li>
                                     <li>Oral Care</li><li>Skin Care</li><li>Bath & Hand Wash</li><li>Body Wash & <br/>Bathing Accesories</li><li>Feminine Hygiene</li><li>Men's Grooming</li><li>Deo & Fragnances</li><li>Health & Wellness</li><li>Makeup</li></ul>
                                 </CardBody>
                             </Card>

@@ -188,6 +188,14 @@ class Content extends React.Component {
               {id: "b47", name: "Saffola"},
               {id: "b48", name: "Suhana"}
           ]
+        },
+        beverages: {
+          products: [],
+          brands: []
+        },
+        fruits_vegetables: {
+          products: [],
+          brands: []
         }
       },
       sub_categories: {
@@ -251,6 +259,18 @@ class Content extends React.Component {
               discount: 7
             }
           ]
+        },
+        dry_fruits: {
+          banner_img: "",
+          items: []
+        },
+        tea: {
+          banner_img: "",
+          items: []
+        },
+        fresh_fruits: {
+          banner_img: "",
+          items: []
         }
       }
     }
