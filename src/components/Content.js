@@ -5,18 +5,18 @@ import PersonalCare from "./PersonalCare";
 import "./Common.css"
 
 class Content extends React.Component {
-    render() {
-        return (
-          <div className="row" >
-              <div className="my-content-left">
-                <SideBar />
-              </div>
-              <div className="my-content-right">
-                <PersonalCare/>
-              </div>
+  render() {
+    return (
+      <div className="row" >
+          <div className="my-content-left">
+            <SideBar content={this.props.content}/>
           </div>
-        );
-      }
+          <div className="my-content-right">
+            <PersonalCare/>
+          </div>
+      </div>
+    );
+  }
 }
 
 export default Content;

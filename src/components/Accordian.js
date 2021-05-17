@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Collapse, Button, CardBody, Card, Jumbotron } from 'reactstrap';
+import { Collapse, Button, CardBody, Card } from 'reactstrap';
 
 
 import "./Common.css"

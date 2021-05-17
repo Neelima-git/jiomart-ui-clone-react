@@ -1,23 +1,8 @@
 import React from 'react';
-import { FormGroup, Label, Input, Jumbotron } from 'reactstrap';
+import { FormGroup, Label, Input } from 'reactstrap';
 import "./Common.css"
 
 class Filters extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-          products: [
-              {id: "p1", name: "Bathing Bars & Soaps"},
-              {id: "p2", name: "Toothpaste"},
-              {id: "p3", name: "Shampoo & Conditioner"}
-          ],
-          brands: [
-              {id: "b1", name: "Colgate"},
-              {id: "b2", name: "Sebamed"},
-              {id: "b3", name: "Nivea"}
-          ]
-        }
-    }
     render() {
         return (
             <div className="row my-content-haircare justify-content-left">
@@ -41,7 +26,7 @@ class Filters extends React.Component {
                                 </div><br/><br/> 
                                 <div className="scroll">
                                     {
-                                        this.state.products.map((product) => {
+                                        this.props.content.products.map((product) => {
                                             return (
                                                 <FormGroup check>
                                                 {React.createElement("Label", {class: "form-check-label", id: product.id},
@@ -62,7 +47,7 @@ class Filters extends React.Component {
                                 <br/><br/>
                                 <div className="scroll">
                                     {
-                                        this.state.brands.map((brand) => {
+                                        this.props.content.brands.map((brand) => {
                                             return (
                                                 <FormGroup check>
                                                 {React.createElement("Label", {class: "form-check-label", id: brand.id},
