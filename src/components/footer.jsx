@@ -23,11 +23,11 @@ class Footer extends React.Component{
             {/* <!--Customer Service list--> */}
             <ul className="col-md-3 col-5">
                 <li><h2>CUSTOMER SERVICES</h2></li>
-                <li><Link to="customerservices/aboutus.html">About Us</Link></li>
+                <li><Link to="/aboutus">About Us</Link></li>
                 <li><Link to="/faqs">FAQ</Link></li>
-                <li><Link to="customerservices/terms.html">Terms and conditions</Link></li>
-                <li><Link to="customerservices/privacy.html">Privacy policy</Link></li>
-                <li><Link to="customerservices/ewaste.html">E-waste Policy</Link></li>
+                <li><Link to="/tnc">Terms and conditions</Link></li>
+                <li><Link to="/policy">Privacy policy</Link></li>
+                <li><Link to="/ewaste">E-waste Policy</Link></li>
             </ul>
             {/* <!--Footer Content Contact Pannel--> */}
             <div className="contact col-md-4 col-6 pr-5 mr-1" style={{"fontSize":"12px!important"}}>
