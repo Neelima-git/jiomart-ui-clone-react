@@ -63,3 +63,12 @@ body{
       display: none;
     }
   }
+  @media screen and (max-width:900px) {
+    body{
+      margin-top: 100px;
+      padding: 0%;
+    }
+    .c{
+      height: 130px;
+    }
+  }
