@@ -4,9 +4,8 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 //Importing components
 import Navbar from "./components/Navbar";
-import Accordian from "./components/Accordian";
-import Filters from "./components/Filters";
 import PersonalCare from "./components/PersonalCare";
+import SideBar from "./components/SideBar";
 
 
 function App() {
@@ -14,8 +13,7 @@ function App() {
     <Router>
       <div className="App">
         <Navbar />
-        <Accordian />
-        <Filters/>
+        <SideBar/>
         <PersonalCare/>
       </div>
     </Router>
