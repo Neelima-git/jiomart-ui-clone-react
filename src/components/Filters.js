@@ -3,7 +3,6 @@ import { FormGroup, Label, Input, Jumbotron } from 'reactstrap';
 import "./Common.css"
 const Filters = (props) => {
     return (
-        <Jumbotron>
         <div className="row my-content-haircare justify-content-left">
             <div className="my-content-left">
                 <div className="column justify-content-left">
@@ -444,7 +443,6 @@ const Filters = (props) => {
                 </div>
             </div>
         </div>
-        </Jumbotron>
     );
 }
   

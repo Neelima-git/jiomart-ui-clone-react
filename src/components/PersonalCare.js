@@ -5,9 +5,8 @@ import "./PersonalCare.css"
 
 const PersonalCare = (props) => {
     return (
-        <Jumbotron>
-            <div className="row my-content-haircare justify-content-start">
-                <div className="my-content-right">
+            //<div className="row my-content-haircare justify-content-start">
+                //<div className="my-content-right">
                     <div className="row justify-content-end">
                         <div className="col-lg-10 m-lg-8 s-m-6">
                             <div className="card image">
@@ -125,9 +124,8 @@ const PersonalCare = (props) => {
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </Jumbotron>
+                //</div>
+            //</div>
     );
 }
   

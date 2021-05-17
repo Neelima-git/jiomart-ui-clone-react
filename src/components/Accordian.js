@@ -24,7 +24,6 @@ const Accordian = (props) => {
     const [isOpen9, setIsOpen9] = useState(false);
     const toggle9 = () => setIsOpen9(!isOpen9);
     return (
-        <Jumbotron>
         <div className="row my-content-haircare justify-content-start">
             <div className="my-content-left">
                 <div className="column justify-content-start">
@@ -110,7 +109,6 @@ const Accordian = (props) => {
                         </div>
                        
                     </div>
-                </Jumbotron>
     );
   }
   

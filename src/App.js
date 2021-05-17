@@ -4,17 +4,16 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 //Importing components
 import Navbar from "./components/Navbar";
-import PersonalCare from "./components/PersonalCare";
-import SideBar from "./components/SideBar";
+import Content from "./components/Content";
 
 
 function App() {
   return (
     <Router>
+      <br/><br/><br/><br/><br/><br/><br/><br/>
       <div className="App">
         <Navbar />
-        <SideBar/>
-        <PersonalCare/>
+        <Content />
       </div>
     </Router>
   );
