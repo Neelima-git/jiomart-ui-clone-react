@@ -258,7 +258,7 @@ class Content extends React.Component {
 
   render() {
     return (
-      <div className="row" >
+      <div className="row my-content" >
           <div className="my-content-left">
             <SideBar content={this.state.categories[this.state.category]}/>
           </div>

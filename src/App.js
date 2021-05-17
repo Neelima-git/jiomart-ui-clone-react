@@ -13,7 +13,6 @@ class App extends React.Component {
   render() {
     return (
       <Router>
-        <br/><br/><br/><br/><br/><br/><br/><br/>
         <div className="App">
           <Navbar />
           <Switch>
