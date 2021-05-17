@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, CardImg, CardBody,
     CardTitle, CardSubtitle, Button, Badge, CardColumns, ButtonGroup, Jumbotron } from 'reactstrap';
-import "./personalcare.css"
+import "./PersonalCare.css"
 
 const PersonalCare = (props) => {
     return (

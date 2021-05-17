@@ -1,7 +1,7 @@
 import React from 'react';
 import { FormGroup, Label, Input, Jumbotron } from 'reactstrap';
-import "./Accordian.css"
-const CheckBoxes = (props) => {
+import "./Common.css"
+const Filters = (props) => {
     return (
         <Jumbotron>
         <div className="row my-content-haircare justify-content-left">
@@ -448,4 +448,4 @@ const CheckBoxes = (props) => {
     );
 }
   
-export default CheckBoxes;
+export default Filters;

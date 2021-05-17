@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Collapse, Button, CardBody, Card, Jumbotron } from 'reactstrap';
 
 
-import "./Accordian.css"
+import "./Common.css"
 
 const Accordian = (props) => {
     const [isOpen1, setIsOpen1] = useState(false);
