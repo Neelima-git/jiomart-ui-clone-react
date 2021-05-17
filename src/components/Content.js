@@ -1,14 +1,17 @@
 import React from 'react'
 import SideBar from "./SideBar";
 import PersonalCare from "./PersonalCare";
-
+import { withRouter } from 'react-router-dom';
+import queryString from 'query-string';
 import "./Common.css"
 
 class Content extends React.Component {
   constructor(props) {
     super(props);
+    let params = queryString.parse(this.props.location.search)
+
     this.state = {
-      category: "personal_care",
+      category: params.category,
       personal_care: {
         products: [
             {id: "p1", name: "Bathing Bars & Soaps"},
@@ -201,4 +204,4 @@ class Content extends React.Component {
   }
 }
 
-export default Content;
+export default withRouter(Content);
