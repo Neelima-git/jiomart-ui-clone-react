@@ -1,48 +1,7 @@
-/* Personal Care -> Hair Care */
-.row {
-    margin-left: 0px;
-   }
-   
-   .my-head {
-       padding-left: 16px;
-       padding-right: -20px;
-       width: 100%;
-   }
-   .my-head-item-left {
-       width: 25%;
-   }
-   .my-head-item-right {
-       width: 75%;
-   }
-   
-   .badge {
-       height: 20px;
-       margin-bottom: 5px;
-       
-   }
-   .product {
-    width: 205px;
-    height: 380px;
-    padding-top: 10px;
-    margin-left: 20px;
-    font-style: inherit;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   }
-   
-   .product-buy {
-    position: absolute;
-    bottom: 5px;
-    width: 205px;
-   }
-   .heading{
-       color: rgb(148, 143, 143);
-       margin-top: 15px;
-       margin-left: 20px;
-       font-family: Verdana, Geneva, Tahoma, sans-serif;
-   }
-   /* Accordion - Personal Care */
 
-   .my-content-haircare {
+/* Accordion - Personal Care */
+
+.my-content-haircare {
     padding-top: 70px;
     width: 100%;
 }
@@ -52,7 +11,7 @@
 .my-content-right {
     width: 90%;
 } 
-   body {
+body {
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-size: 12px;
@@ -62,10 +21,10 @@
     margin: 0;
     padding: 0;
 }
-h6{
+h6 {
     padding: 10px;
 }
-.scroll{
+.scroll {
     overflow-y: auto;
     text-align:justify;
     padding-left: 5px;

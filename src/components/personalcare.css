@@ -22,7 +22,7 @@
    }
    .product {
     width: 205px;
-    height: 380px;
+    height: 250px;
     padding-top: 10px;
     margin-left: 20px;
     font-style: inherit;
@@ -30,9 +30,7 @@
    }
    
    .product-buy {
-    position: absolute;
-    bottom: 5px;
-    width: 205px;
+    width: 100%;
    }
    .heading{
        color: rgb(148, 143, 143);
