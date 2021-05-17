@@ -269,8 +269,63 @@ class Content extends React.Component {
           items: []
         },
         fresh_fruits: {
-          banner_img: "",
-          items: []
+          banner_img: "./Assets/fruitsImages/fruitshomepage.jpg",
+          items: [{ 
+            id: "i1",
+            name: "Grapes Sonaka Seedless per Kg",
+            img: "./Assets/fruitsImages/fruits1-grapes.jpg",
+            price: 16000,
+            discount: 8
+          },
+          {
+            id: "i2",
+            name: "Dates Imported (Approx 400 g - 500 g)",
+            img: "./Assets/fruitsImages/fruitshomepage.jpg",
+            price: 15900,
+            discount: 8
+          },
+          {
+            id: "i3",
+            name: "Mango Kesar 4 pcs Box (Approx 800 g-1200 g) ",
+            img: "./Assets/fruitsImages/2-dates.jpg",
+            price: 12900,
+            discount: 7
+          },
+          {
+            id: "i4",
+            name: "Mango Badami 4 pcs  (Approx 1200 g - 1400 g)",
+            img: "./Assets/fruitsImages/3-mango.jpg",
+            price: 11900,
+            discount: 6
+          },
+          {
+            id: "i5",
+            name: "Mango Totapuri 4 pcs  (Approx 1200 g - 1400 g)",
+            img: "./Assets/fruitsImages/mango-totapuri-5.jpg",
+            price:  8900,
+            discount: 4
+          },
+          {
+            id: "i6",
+            name: "Alphonso Mango 6 pcs (Box) (Approx 1300 g - 1500 g)",
+            img: "./Assets/fruitsImages/alphonso-mango-6.jpg",
+            price: 34900,
+            discount: 7
+          },
+          {
+            id: "i7",
+            name: "Apple Royal Gala (4 pcs) (Approx 500 g - 700 g)",
+            img: "./Assets/fruitsImages/apple-royal-gala-7.jpg",
+            price: 19900,
+            discount: 8 
+          },
+          {
+            id: "i8",
+            name: "Pears Green Imported 3 pcs (Pack)",
+            img: "./Assets/fruitsImages/pears-imported-green-8.jpg",
+            price: 7900,
+            discount: 7
+          }]
         }
       }
     }
