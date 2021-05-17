@@ -5,6 +5,7 @@ import { withRouter } from 'react-router-dom';
 import queryString from 'query-string';
 import "./Common.css"
 
+
 class Content extends React.Component {
   constructor(props) {
     super(props);
@@ -194,7 +195,29 @@ class Content extends React.Component {
           brands: []
         },
         fruits_vegetables: {
-          products: [],
+          products: [ 
+            {id: "p1", name: "Grapes Sonaka Seedless"},
+            {id: "p2", name: "Dates Imported "},
+            {id: "p3", name: "Mango Kesar"},
+            {id: "p4", name: "Mango Badami"},
+            {id: "p5", name: "Alphonso Mango"},
+            {id: "p6", name: "Apple Royal Gala"},
+            {id: "p7", name: "Pears Green Imported"},
+            {id: "p8", name: "Apple Red"},
+            {id: "p9", name: "Banana Robusta"},
+            {id: "p10", name: "Watermelon Kiran"},
+            {id: "p11", name: "Musk Melon"},
+            {id: "p12", name: "Mosambi"},
+            {id: "p13", name: "Pineapple Queen"},
+            {id: "p14", name: "Orange Imported"},
+            {id: "p15", name: "Papaya "},
+            {id: "p16", name: "Banana Yellaki"},
+            {id: "p17", name: "Apple Granny Smith"},
+            {id: "p18", name: "Mango Alphonso"},
+            {id: "p19", name: "Sapota"},
+            {id: "p20", name: "Pomegranate Kesar"},
+            
+            ],
           brands: []
         }
       },
@@ -280,7 +303,7 @@ class Content extends React.Component {
           {
             id: "i2",
             name: "Dates Imported (Approx 400 g - 500 g)",
-            img: "./Assets/fruitsImages/fruitshomepage.jpg",
+            img: "./Assets/fruitsImages/2-dates.jpg",
             price: 15900,
             discount: 8
           },

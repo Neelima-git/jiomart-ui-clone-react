@@ -38,6 +38,9 @@
        margin-left: 20px;
        font-family: Verdana, Geneva, Tahoma, sans-serif;
    }
+   .my-content-right{
+    width: 85%;
+}
    @media screen and (max-width: 991px) {
     .my-content-left{
         display: none;

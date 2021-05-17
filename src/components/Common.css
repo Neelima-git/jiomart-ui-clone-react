@@ -7,12 +7,13 @@
 }
 .my-content {
     margin-top: 100px;
+    overflow-x: hidden!important;
 }
 .my-content-left {
     width: 10%;
 }
 .my-content-right {
-    width: 90%;
+    width: 80%;
 } 
 body {
     font-family: Arial, Helvetica, sans-serif;
