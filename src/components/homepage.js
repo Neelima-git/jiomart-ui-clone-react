@@ -10,7 +10,7 @@ import {
   CardSubtitle, CardBody
 } from 'bootstrap';
 
-const homepage = () => {
+const Homepage = () => {
     return (
       <div className="ad_1" >
       <div className="container-fluid">
@@ -501,4 +501,4 @@ const homepage = () => {
     )
 }
 
-export default homepage
+export default Homepage

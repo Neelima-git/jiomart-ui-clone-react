@@ -7,7 +7,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Cart from "./components/cart";
 import Content from "./components/Content";
-import Home from "./components/Home"
+import Homepage from "./components/homepage"
 
 
 class App extends React.Component {
@@ -24,7 +24,7 @@ class App extends React.Component {
               <Cart/>
             </Route>
             <Route path="/">
-              <Home />
+              <Homepage />
             </Route>
             
           </Switch>
