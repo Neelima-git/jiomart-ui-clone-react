@@ -74,7 +74,9 @@ const Accordian = (props) => {
                             <Collapse isOpen={isOpen6}>
                             <Card>
                                 <CardBody>
-                                <ul><li>Hair Care</li><li>Oral Care</li><li>Skin Care</li><li>Bath & Hand Wash</li><li>Body Wash & <br/>Bathing Accesories</li><li>Feminine Hygiene</li><li>Men's Grooming</li><li>Deo & Fragnances</li><li>Health & Wellness</li><li>Makeup</li></ul>
+                                <ul>
+                                    <li><a className="dropdown-item" href="/content?category=personal_care&sub_category=hair_care"> Hair Care</a></li>
+                                    <li>Oral Care</li><li>Skin Care</li><li>Bath & Hand Wash</li><li>Body Wash & <br/>Bathing Accesories</li><li>Feminine Hygiene</li><li>Men's Grooming</li><li>Deo & Fragnances</li><li>Health & Wellness</li><li>Makeup</li></ul>
                                 </CardBody>
                             </Card>
                             </Collapse>

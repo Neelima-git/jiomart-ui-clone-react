@@ -212,7 +212,7 @@ const Navbar = () => {
                         <li className="nav-item dropdown">
                             <a className="nav-link  dropdown-toggle"   data-bs-toggle="dropdown">  Personal Care  </a>
                             <ul className="dropdown-menu">
-                            <li><a className="dropdown-item"> Hair Care</a></li>
+                            <li><a className="dropdown-item" href="/content?category=personal_care&sub_category=hair_care"> Hair Care</a></li>
                             <li><a className="dropdown-item"> Oral Care </a></li>
                             <li><a className="dropdown-item"> Skin Care </a></li>
                             <li><a className="dropdown-item"> Bath & Hand Wash </a></li>
