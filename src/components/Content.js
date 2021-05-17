@@ -192,61 +192,61 @@ class Content extends React.Component {
       },
       sub_categories: {
         hair_care: {
-          banner_img: "./personalcareImages/hair-care-20200704.jpg",
+          banner_img: "./Assets/personalcareImages/hair-care-20200704.jpg",
           items: [
             {
               id: "i1",
               name: "Bajaj Almond Drops Non Sticky Hair Oil",
-              img: "./personalcareImages/anmol-gold-pure-coconut-oil-500-ml-0-20201017.jpg",
+              img: "./Assets/personalcareImages/anmol-gold-pure-coconut-oil-500-ml-0-20201017.jpg",
               price: 17000,
               discount: 20
             },
             {
               id: "i2",
               name: "World's No.1 Dabur Amla Hair Oil 450 ml",
-              img: "./personalcareImages/dabur-amla-hair-oil-450-ml-0-20201222 (1).jpg",
+              img: "./Assets/personalcareImages/dabur-amla-hair-oil-450-ml-0-20201222 (1).jpg",
               price: 19900,
               discount: 8
             },
             {
               id: "i3",
               name: "Bajaj Almond Drops Non Sticky Hair Oil",
-              img: "./personalcareImages/bajaj-almond-drops-non-sticky-hair-oil-300-ml-0-20200924 (1).jpg",
+              img: "./Assets/personalcareImages/bajaj-almond-drops-non-sticky-hair-oil-300-ml-0-20200924 (1).jpg",
               price: 18000,
               discount: 7
             },
             {
               id: "i4",
               name: "Tresemme Keratin Smooth Shampoo",
-              img: "./personalcareImages/tresemme-keratin-smooth-shampoo-340-ml-0-20210112 (1).jpg",
+              img: "./Assets/personalcareImages/tresemme-keratin-smooth-shampoo-340-ml-0-20210112 (1).jpg",
               price: 24500,
               discount: 16
             },
             {
               id: "i5",
               name: "Bio Green Apple Shampoo 650 ml",
-              img: "./personalcareImages/bio-green-apple-shampoo-650-ml-0-20200814 (1).jpg",
+              img: "./Assets/personalcareImages/bio-green-apple-shampoo-650-ml-0-20200814 (1).jpg",
               price: 43000,
               discount: 50
             },
             {
               id: "i6",
               name: "Dhathri Dheedhi Anti-Hair Fall Herbal",
-              img: "./personalcareImages/dhathri-dheedhi-anti-hair-fall-herbal-shampoo-400-ml-0-20201020 (1).jpg",
+              img: "./Assets/personalcareImages/dhathri-dheedhi-anti-hair-fall-herbal-shampoo-400-ml-0-20201020 (1).jpg",
               price: 29500,
               discount: 7
             },
             {
               id: "i7",
               name: "Dhathri Dheedhi Anti-Hair Fall Herbal",
-              img: "./personalcareImages/dhathri-dheedhi-anti-dandruff-herbal-shampoo-400-ml-0-20201020 (2).jpg",
+              img: "./Assets/personalcareImages/dhathri-dheedhi-anti-dandruff-herbal-shampoo-400-ml-0-20201020 (2).jpg",
               price: 29500,
               discount: 7
             },
             {
               id: "i8",
               name: "Parachute 100% Pure Coconut Hair",
-              img: "./personalcareImages/parachute-100-pure-coconut-hair-oil-200-ml-0-20201020 (1).jpg",
+              img: "./Assets/personalcareImages/parachute-100-pure-coconut-hair-oil-200-ml-0-20201020 (1).jpg",
               price: 9000,
               discount: 7
             }
