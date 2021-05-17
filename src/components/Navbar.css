@@ -40,6 +40,12 @@ p {
   .fa-user {
     margin-right: 5px;
   }
+
+  .fa-user-circle{
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: large;
+  }
 a,
 a:hover,
 a:focus {
@@ -204,7 +210,7 @@ a:focus {
 }
 
 #sidebar .sidebar-header .row{
-    margin-left: -45px;
+    margin-left: -15px;
 }
 #sidebar .sidebar-header ul{
     list-style: none;

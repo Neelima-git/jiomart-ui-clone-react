@@ -67,12 +67,12 @@ const Homepage = () => {
     <br />
         <h2 className="space text-center">Shop From Top Categories</h2>
 
-        <div className="card-deck home-mbl" >
-        <a href="#" className="cntr"><img  src=".\Assets\homepage\10.jpg" alt="image" /></a>
-        <a href="#" className=""><img src=".\Assets\homepage\11.jpg" alt="image" /></a>
-        <a href="#"><img src=".\Assets\homepage\12.jpg" alt="images"/></a>
-        <a href="#"><img src=".\Assets\homepage\13.jpg" alt=".\Assets\homepage\image"/></a>
-        <a href="#"><img src=".\Assets\homepage\14.jpg" alt=".\Assets\homepage\image"/></a>
+        <div className="card-deck home-mbl justify-content-center" >
+        <img  src=".\Assets\homepage\10.jpg" alt="image" />
+        <img src=".\Assets\homepage\11.jpg" alt="image" />
+        <img src=".\Assets\homepage\12.jpg" alt="images"/>
+        <img src=".\Assets\homepage\13.jpg" alt=".\Assets\homepage\image"/>
+        <img src=".\Assets\homepage\14.jpg" alt=".\Assets\homepage\image"/>
       </div>
       </div>
       <div className="card">
@@ -294,7 +294,7 @@ const Homepage = () => {
             </div>
           </div>
         </div>
-        <h3 className="space">Shop By Categories</h3>
+        <h2 className="space ">Shop By Categories</h2>
 
               <div className="container-fluid">
 
