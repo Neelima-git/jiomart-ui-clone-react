@@ -127,9 +127,12 @@ a:focus {
     font-weight: 500;
     color: #000000;
 }
-
+.dropdown{
+    cursor: pointer;
+}
 .navbar-custom .dropdown-menu .dropdown-item{
     font-weight: 500;
+    cursor: pointer;
 }
 
 .navbar-custom .dropdown-menu {
@@ -211,7 +214,7 @@ a:focus {
     color: #ffffff;
     justify-content: space-around;
     outline: #ffffff;
-    margin: 0 2px;
+    margin-left: 10px;
     padding: 5px 50px;
     border-color: #ffffff;
 }

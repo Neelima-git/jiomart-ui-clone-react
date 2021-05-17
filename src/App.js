@@ -7,7 +7,9 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Cart from "./components/cart";
 import Content from "./components/Content";
-import Homepage from "./components/homepage"
+import Homepage from "./components/homepage";
+import Footer from "./components/footer";
+import Login from "./components/login";
 
 
 class App extends React.Component {
@@ -23,11 +25,14 @@ class App extends React.Component {
             <Route path="/cart">
               <Cart/>
             </Route>
-            <Route path="/">
+            <Route path="/" exact>
               <Homepage />
             </Route>
-            
+            <Route path="/login">
+              <Login />
+            </Route>
           </Switch>
+          <Footer/>
         </div>
       </Router>
     );

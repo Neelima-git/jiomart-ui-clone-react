@@ -70,7 +70,7 @@ const Navbar = () => {
                 </div>  
                 <div className="row">  
                 <ul  className="d-flex ">
-                    <button type="button" ><a href="/">Account</a></button>
+                    <button type="button" className="ml-2"><Link to="/login">Account</Link></button>
                     <button type="button">Orders</button>
                 </ul>     
                 </div>  
@@ -114,7 +114,7 @@ const Navbar = () => {
                     <button type="button" id="sidebarCollapse" className="btn btn-info mx-md-5 p-auto">
                         <i className="fas fa-bars fa-lg"></i>
                     </button>
-                    <a className="navbar-brand"  href="index.html"><img className="nav-logo" src="https://www.jiomart.com/assets/version1616088859/smartweb/images/jiomart_logo_beta.svg" alt=""/></a> 
+                    <Link className="navbar-brand"  to="/"><img className="nav-logo" src="https://www.jiomart.com/assets/version1616088859/smartweb/images/jiomart_logo_beta.svg" alt=""/></Link> 
                     <form className="form-inline my-2 my-lg-0 mx-4 " id="navBarSearchForm">
                         <input className="form-control mx-3 " type="search" placeholder="Search essentials, groceries and more..." aria-label="Search"/>
                       </form>
@@ -123,7 +123,7 @@ const Navbar = () => {
                     <div className="collapse hide navbar-collapse ml-5 home-nav" id="navbarSupportedContent" >
                         <ul className="nav navbar-nav mx-4 ">
                             <li className="nav-item me-3 me-lg-0 ">
-                                <a className="nav-link " href="login.html"><i className="fas fa-user" ></i><span>  Sign in/Sign Up</span></a>
+                                <Link className="nav-link " to="/login"><i className="fas fa-user" ></i><span>  Sign in/Sign Up</span></Link>
                             </li>
                             <li className="nav-item me-3 me-lg-0 ">
                                 <a className="nav-link" href="/cart">
