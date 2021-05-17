@@ -54,7 +54,7 @@ const Accordian = (props) => {
                                 </CardBody>
                             </Card>
                             </Collapse>
-                            <Button color="light" onClick={toggle4} ><i className="fa fa-lg fa-angle-right"></i>Snacks & Branded Foods</Button>
+                            <Button color="light" onClick={toggle4} ><i className="fa fa-lg fa-angle-right"></i> Snacks & Branded Foods</Button>
                             <Collapse isOpen={isOpen4}>
                             <Card>
                                 <CardBody>
