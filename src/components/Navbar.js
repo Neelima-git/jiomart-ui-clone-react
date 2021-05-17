@@ -126,7 +126,7 @@ const Navbar = () => {
                                 <a className="nav-link " href="login.html"><i className="fas fa-user" ></i><span>  Sign in/Sign Up</span></a>
                             </li>
                             <li className="nav-item me-3 me-lg-0 ">
-                                <a className="nav-link" href="cart.htm">
+                                <a className="nav-link" href="/cart">
                                   <i className="fas fa-shopping-cart"></i>
                                   <span>   Cart</span>
                                 </a>

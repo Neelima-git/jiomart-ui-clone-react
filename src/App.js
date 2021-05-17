@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 //Importing components
 import Navbar from "./components/Navbar";
+import Cart from "./components/cart";
 import Content from "./components/Content";
 import Home from "./components/Home"
 
@@ -19,9 +20,13 @@ class App extends React.Component {
             <Route path="/content">
               <Content />
             </Route>
+            <Route path="/cart">
+              <Cart/>
+            </Route>
             <Route path="/">
               <Home />
             </Route>
+            
           </Switch>
         </div>
       </Router>
