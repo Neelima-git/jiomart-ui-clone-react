@@ -23,9 +23,9 @@ class Footer extends React.Component{
             {/* <!--Customer Service list--> */}
             <ul className="col-md-3 col-5">
                 <li><h2>CUSTOMER SERVICES</h2></li>
-                <li><Link to="/aboutus">About Us</Link></li>
+                <li><Link to="/Aboutus">About Us</Link></li>
                 <li><Link to="/faqs">FAQ</Link></li>
-                <li><Link to="/tnc">Terms and conditions</Link></li>
+                <li><Link to="/terms">Terms and conditions</Link></li>
                 <li><Link to="/policy">Privacy policy</Link></li>
                 <li><Link to="/ewaste">E-waste Policy</Link></li>
             </ul>

@@ -9,6 +9,11 @@ import Content from "./components/Content";
 import Homepage from "./components/homepage";
 import Footer from "./components/footer";
 import Login from "./components/login";
+import Aboutus from "./components/Aboutus";
+import Faqs from "./components/faqs";
+import Terms from "./components/Terms";
+import Ewaste from "./components/Ewaste";
+import Policy from "./components/Policy";
 
 
 class App extends React.Component {
@@ -24,11 +29,26 @@ class App extends React.Component {
             <Route path="/cart">
               <Cart/>
             </Route>
-            <Route path="/" exact>
-              <Homepage />
-            </Route>
             <Route path="/login">
               <Login />
+            </Route>
+            <Route path="/Aboutus">
+              <Aboutus />
+            </Route>
+            <Route path="/faqs">
+              <Faqs />
+            </Route>
+            <Route path="/terms">
+              <Terms />
+            </Route>
+            <Route path="/ewaste">
+              <Ewaste />
+            </Route>
+            <Route path="/Policy">
+              <Policy />
+            </Route>
+            <Route path="/" exact>
+              <Homepage />
             </Route>
           </Switch>
           <Footer/>

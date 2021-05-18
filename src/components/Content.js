@@ -338,7 +338,7 @@ class Content extends React.Component {
           banner_img: "./Assets/staplesImages/dry-fruits-nuts-20201014.jpeg",
           items: [{ 
             id: "i1",
-            name: "Good Life Almonds 500g (Healthy)",
+            name: "Good Life Almonds 500g",
             img: "./Assets/staplesImages/good-life-almonds-500-g-0-20200901.jpg",
             price: 44900,
             discount: 32
@@ -419,7 +419,7 @@ class Content extends React.Component {
             },
             {
               id: "i4",
-              name: "Wagh Bakri Premium Leaf Tea 500 g",
+              name: "Wagh Bakri Leaf Tea 500 g",
               img: "./Assets/teaimages/wagh-bakri-premium-leaf-tea-500-g-0-20201118.jpg",
               price: 241,
               discount: 25
@@ -458,7 +458,7 @@ class Content extends React.Component {
           banner_img: "./Assets/fruitsImages/fruitshomepage.jpg",
           items: [{ 
             id: "i1",
-            name: "Grapes Sonaka Seedless per Kg",
+            name: "Grapes Sonaka Seedless per 1kg (1000 g)",
             img: "./Assets/fruitsImages/fruits1-grapes.jpg",
             price: 16000,
             discount: 8
