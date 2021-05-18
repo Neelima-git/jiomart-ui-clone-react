@@ -46,7 +46,7 @@ class App extends React.Component {
             <Route path="/Policy">
               <Policy />
             </Route>
-            <Route path="/" exact>
+            <Route path="/jiomart-ui-clone-react" exact>
               <Homepage />
             </Route>
           </Switch>
