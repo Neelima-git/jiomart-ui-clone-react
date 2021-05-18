@@ -50,10 +50,11 @@ class Filters extends React.Component {
                                     {
                                         this.props.content.brands.map((brand) => {
                                             return (
-                                                <FormGroup check>
-                                                {React.createElement("Label", {class: "form-check-label", id: brand.id},
-                                                    React.createElement("Input", {class: "form-check-input", type: "checkbox"}, " "), brand.name
-                                                )}
+                                                <FormGroup check key={brand.id}>
+                                                    <Label className="form-check-label" id={brand.id}>
+                                                        <Input className="form-check-input" type="checkbox"/>
+                                                        {brand.name}
+                                                    </Label>
                                                 </FormGroup>
                                             );
                                         })
