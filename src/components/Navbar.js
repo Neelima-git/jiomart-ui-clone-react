@@ -4,7 +4,7 @@ import "./Navbar.css"
 import {Link} from "react-router-dom";
 
 const Navbar = () => {
-    $(document).ready(function () {
+    $(function () {
         $('#dismiss, .overlay').on('click', function () {
             $('#sidebar').removeClass('active');
             $('.overlay').removeClass('active');
@@ -64,13 +64,13 @@ const Navbar = () => {
             <div className="sidebar-header"  >
                 <div className="row">
                 <ul className="d-flex">
-                    <li><i className="fas fa-user"></i></li>
+                    <li><i class="fas fa-user-circle"></i></li>
                     <li><h6>Hello, Sign in</h6></li>   
                 </ul> 
                 </div>  
                 <div className="row">  
                 <ul  className="d-flex ">
-                    <button type="button" ><a href="/">Account</a></button>
+                    <button type="button" className="ml-2"><Link to="/login">Account</Link></button>
                     <button type="button">Orders</button>
                 </ul>     
                 </div>  
@@ -114,7 +114,7 @@ const Navbar = () => {
                     <button type="button" id="sidebarCollapse" className="btn btn-info mx-md-5 p-auto">
                         <i className="fas fa-bars fa-lg"></i>
                     </button>
-                    <a className="navbar-brand"  href="index.html"><img className="nav-logo" src="https://www.jiomart.com/assets/version1616088859/smartweb/images/jiomart_logo_beta.svg" alt=""/></a> 
+                    <Link className="navbar-brand"  to="/"><img className="nav-logo" src="https://www.jiomart.com/assets/version1616088859/smartweb/images/jiomart_logo_beta.svg" alt=""/></Link> 
                     <form className="form-inline my-2 my-lg-0 mx-4 " id="navBarSearchForm">
                         <input className="form-control mx-3 " type="search" placeholder="Search essentials, groceries and more..." aria-label="Search"/>
                       </form>
@@ -123,10 +123,10 @@ const Navbar = () => {
                     <div className="collapse hide navbar-collapse ml-5 home-nav" id="navbarSupportedContent" >
                         <ul className="nav navbar-nav mx-4 ">
                             <li className="nav-item me-3 me-lg-0 ">
-                                <a className="nav-link " href="login.html"><i className="fas fa-user" ></i><span>  Sign in/Sign Up</span></a>
+                                <Link className="nav-link " to="/login"><i className="fas fa-user" ></i><span>  Sign in/Sign Up</span></Link>
                             </li>
                             <li className="nav-item me-3 me-lg-0 ">
-                                <a className="nav-link" href="cart.htm">
+                                <a className="nav-link" href="/cart">
                                   <i className="fas fa-shopping-cart"></i>
                                   <span>   Cart</span>
                                 </a>
@@ -139,8 +139,8 @@ const Navbar = () => {
            
             <nav className="navbar navbar-custom navbar-expand-lg border-bottom "    >
                 <div className="container-fluid ml-4 pl-4" >
-                    <a ><img src="./navimgs/location.png" alt=""/></a>
-                    <div className="delivery_content"> Deliver to                 
+                    <i className="fas fa-map-marker-alt"></i>
+                    <div className="delivery_content"> Deliver to                         
                         <span id="delivery_details">
                             <a><span><b> 400020</b></span></a>
                         </span>
@@ -150,7 +150,7 @@ const Navbar = () => {
                         <li className="nav-item dropdown ">
                             <a className="nav-link  dropdown-toggle"   data-bs-toggle="dropdown">  Fruits & Vegetables  </a>
                             <ul className="dropdown-menu">
-                            <li><a className="dropdown-item"> Fresh Fruits</a></li>
+                            <li><a className="dropdown-item" href="/content?category=fruits_vegetables&sub_category=fresh_fruits"> Fresh Fruits</a></li>
                             <li><a className="dropdown-item"> Fresh Vegetables </a></li>
                             <li><a className="dropdown-item"> Herbs & Seasonings </a></li>
                             <li><a className="dropdown-item"> Exoctic Fruits & Vegetables </a></li>
@@ -180,7 +180,7 @@ const Navbar = () => {
                             <li><a className="dropdown-item"> Salt, Sugar & Jaggery </a></li>
                             <li><a className="dropdown-item"> Soya Products, Wheat & Other </a></li>
                             <li><a className="dropdown-item"> Grains </a></li>
-                            <li><a className="dropdown-item"> Dry Fruits & Nuts </a></li>
+                            <li><a className="dropdown-item" href="/content?category=staples&sub_category=dry_fruits"> Dry Fruits & Nuts</a></li>
                             </ul>
                         </li>
                         <li className="nav-item dropdown">
@@ -201,7 +201,7 @@ const Navbar = () => {
                         <li className="nav-item dropdown">
                             <a className="nav-link  dropdown-toggle"   data-bs-toggle="dropdown">  Beverages </a>
                             <ul className="dropdown-menu">
-                            <li><a className="dropdown-item"> Tea</a></li>
+                            <li><a className="dropdown-item" href="/content?category=beverages&sub_category=tea"> Tea</a></li>
                             <li><a className="dropdown-item"> Coffee </a></li>
                             <li><a className="dropdown-item"> Fruit Juices </a></li>
                             <li><a className="dropdown-item"> Energy & Soft Drinks </a></li>
@@ -212,7 +212,7 @@ const Navbar = () => {
                         <li className="nav-item dropdown">
                             <a className="nav-link  dropdown-toggle"   data-bs-toggle="dropdown">  Personal Care  </a>
                             <ul className="dropdown-menu">
-                            <li><a className="dropdown-item"> Hair Care</a></li>
+                            <li><a className="dropdown-item" href="/content?category=personal_care&sub_category=hair_care"> Hair Care</a></li>
                             <li><a className="dropdown-item"> Oral Care </a></li>
                             <li><a className="dropdown-item"> Skin Care </a></li>
                             <li><a className="dropdown-item"> Bath & Hand Wash </a></li>
