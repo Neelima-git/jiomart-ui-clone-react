@@ -45,7 +45,7 @@ class CategoryContent extends React.Component {
                                         <CardImg src={item.img} alt="Card image cap" />
                                         <CardBody>
                                             <CardTitle tag="h5">{item.name}</CardTitle>
-                                            <CardSubtitle tag="h6" className="mb-2 text-muted"><del>₹{item.price/100.0}</del> <b>₹{item.price*item.discount/100.0}</b></CardSubtitle>
+                                            <CardSubtitle tag="h6" className="mb-2 text-muted"><del>₹{item.price/100.0}</del> <b>₹{(item.price*(100-item.discount))/10000.0}</b></CardSubtitle>
                                             <Button color="primary" className="product-buy">Add to Cart <i className="fa fa-plus-circle" aria-hidden="true"></i></Button>
                                         </CardBody>
                                     </Card>
