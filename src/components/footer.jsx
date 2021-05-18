@@ -46,7 +46,7 @@ class Footer extends React.Component{
                 <br className="mbl"/>
                 <h2 className="mbl">DOWNLOAD APP</h2>
                 <br className="mbl"/>
-                <Link  className="mr-3 mbl" data-toggle="modal" data-target="#download"><img src="./Assets/appstore/play_store.png" alt=""/></Link>
+                <Link to="/" className="mr-3 mbl" data-toggle="modal" data-target="#download"><img src="./Assets/appstore/play_store.png" alt=""/></Link>
                 <Link to="/" className="mbl" data-toggle="modal" data-target="#download1"><img src="./Assets/appstore/ios_store.png" alt="hello"/></Link>
             </div>
             

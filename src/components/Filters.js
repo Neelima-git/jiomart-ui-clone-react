@@ -28,10 +28,11 @@ class Filters extends React.Component {
                                     {
                                         this.props.content.products.map((product) => {
                                             return (
-                                                <FormGroup check>
-                                                {React.createElement("Label", {class: "form-check-label", id: product.id},
-                                                    React.createElement("Input", {class: "form-check-input", type: "checkbox"}, " "), product.name
-                                                )}
+                                                <FormGroup check key={product.id}>
+                                                    <Label className="form-check-label" id={product.id}>
+                                                        <Input className="form-check-input" type="checkbox"/>
+                                                        {product.name}
+                                                    </Label>
                                                 </FormGroup>
                                             );
                                         })
@@ -49,10 +50,11 @@ class Filters extends React.Component {
                                     {
                                         this.props.content.brands.map((brand) => {
                                             return (
-                                                <FormGroup check>
-                                                {React.createElement("Label", {class: "form-check-label", id: brand.id},
-                                                    React.createElement("Input", {class: "form-check-input", type: "checkbox"}, " "), brand.name
-                                                )}
+                                                <FormGroup check key={brand.id}>
+                                                    <Label className="form-check-label" id={brand.id}>
+                                                        <Input className="form-check-input" type="checkbox"/>
+                                                        {brand.name}
+                                                    </Label>
                                                 </FormGroup>
                                             );
                                         })

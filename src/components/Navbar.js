@@ -64,7 +64,7 @@ const Navbar = () => {
             <div className="sidebar-header"  >
                 <div className="row">
                 <ul className="d-flex">
-                    <li><i class="fas fa-user-circle"></i></li>
+                    <li><i className="fas fa-user-circle"></i></li>
                     <li><h6>Hello, Sign in</h6></li>   
                 </ul> 
                 </div>  
