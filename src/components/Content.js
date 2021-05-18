@@ -191,8 +191,59 @@ class Content extends React.Component {
           ]
         },
         beverages: {
-          products: [],
-          brands: []
+          products: [
+            {id: "p1", name: "Cold Drinks"},
+            {id: "p2", name: "Leaf & Dust Tea"},
+            {id: "p3", name: "Juices"},
+            {id: "p4", name: "Gourmet Tea & Tea Bags"},
+            {id: "p5", name: "Health Drink & Supplement"},
+            {id: "p6", name: "Instant Coffee"},
+            {id: "p7", name: "Exotic & Flavoured Tea"},
+            {id: "p8", name: "Energy Drinks"},
+            {id: "p9", name: "Packaged Water"},
+            {id: "p10", name: "Ground Coffee"},
+            {id: "p11", name: "Soda and Tonic Water"},
+            {id: "p12", name: "Syrups Powders and Mixes"}
+          ],
+          brands: [
+            {id: "b1", name: "Yeah"},
+          {id: "b2", name: "Aarumbh"},
+          {id: "b3", name: "Nature Day"},
+          {id: "b4", name: "Bisleri"},
+          {id: "b5", name: "Bournvita"},
+          {id: "b6", name: "Real"},
+          {id: "b7", name: "Tea Culture Of The World"},
+          {id: "b8", name: "B Natural"},
+          {id: "b9", name: "Narasus"},
+          {id: "b10", name: "Red Label"},
+          {id: "b11", name: "Nescafe"},
+          {id: "b12", name: "Society"},
+          {id: "b13", name: "Thumbs Up"},
+          {id: "b14", name: "Tropicana"},
+          {id: "b15", name: "Twinings"},
+          {id: "b16", name: "Wagh Bakri"},
+          {id: "b17", name: "Coca Cola"},
+          {id: "b18", name: "Ensure"},
+          {id: "b19", name: "Girnar"},
+          {id: "b20", name: "Sprite"},
+          {id: "b21", name: "Bru"},
+          {id: "b22", name: "Horlicks"},
+          {id: "b23", name: "Kingfisher"},
+          {id: "b24", name: "Paper Boat"},
+          {id: "b25", name: "Pepsi"},
+          {id: "b26", name: "Protinex"},
+          {id: "b27", name: "Red Bull"},
+          {id: "b28", name: "Sprig"},
+          {id: "b29", name: "Pediasure"},
+          {id: "b30", name: "Tata Tea"},
+          {id: "b31", name: "Tata Tea Premium"},
+          {id: "b32", name: "Tata Tea Gold"},
+          {id: "b33", name: "Tetley"},
+          {id: "b34", name: "7up"},
+          {id: "b35", name: "Amul"},
+          {id: "b36", name: "Big"},
+          {id: "b37", name: "Coke Zero"}
+          ]
         },
         fruits_vegetables: {
           products: [ 
@@ -202,7 +253,7 @@ class Content extends React.Component {
             {id: "p4", name: "Mango Badami"},
             {id: "p5", name: "Alphonso Mango"},
             {id: "p6", name: "Apple Royal Gala"},
-            {id: "p7", name: "Pears Green Imported"},
+            {id: "p7", name: "Pears Green Imported"},np
             {id: "p8", name: "Apple Red"},
             {id: "p9", name: "Banana Robusta"},
             {id: "p10", name: "Watermelon Kiran"},
@@ -284,12 +335,124 @@ class Content extends React.Component {
           ]
         },
         dry_fruits: {
-          banner_img: "",
-          items: []
+          banner_img: "./Assets/staplesImages/dry-fruits-nuts-20201014.jpeg",
+          items: [{ 
+            id: "i1",
+            name: "Good Life Almonds 500g (Healthy)",
+            img: "./Assets/staplesImages/good-life-almonds-500-g-0-20200901.jpg",
+            price: 44900,
+            discount: 32
+          },
+          {
+            id: "i2",
+            name: "Regular Value Pack Plain Cashews 500g",
+            img: "./Assets/staplesImages/cashew-regular-value-pack-500-g-0-20210422.jpg",
+            price: 45000,
+            discount: 15
+          },
+          {
+            id: "i3",
+            name: "Good Life Mixed Dry Fruits 200g",
+            img: "./Assets/staplesImages/good-life-mixed-dry-fruits-200-g-0-20210310.jpg",
+            price: 15000,
+            discount: 10
+          },
+          {
+            id: "i4",
+            name: "Shree Salted Pistachios 100g",
+            img: "./Assets/staplesImages/shree-salted-pistachios-100-g-0-20200921.jpg",
+            price: 17000,
+            discount: 12
+          },
+          {
+            id: "i5",
+            name: "Sapphero Unshelled Walnuts 200g",
+            img: "./Assets/staplesImages/sapphero-unshelled-walnuts-200-g-0-20201020.jpg",
+            price:  61000,
+            discount: 18
+          },
+          {
+            id: "i6",
+            name: "Sapphero Dry Blueberries 250g",
+            img: "./Assets/staplesImages/sapphero-dry-blueberries-250-g-0-20201215.jpg",
+            price: 64000,
+            discount: 22
+          },
+          {
+            id: "i7",
+            name: "Sapphero Hazelnuts 250g Natural",
+            img: "./Assets/staplesImages/sapphero-hazelnuts-250-g-0-20201215.jpg",
+            price: 45500,
+            discount: 23 
+          },
+          {
+            id: "i8",
+            name: "Sapphero Delux Figs 250g Natural",
+            img: "./Assets/staplesImages/sapphero-delux-figs-250-g-0-20201020.jpg",
+            price: 52500,
+            discount: 21
+          }]
         },
         tea: {
-          banner_img: "",
-          items: []
+          banner_img: "./Assets/teaimages/tea-20200712.jpg",
+          items: [
+            {
+              id: "i1",
+              name: "Society Tea 1 kg",
+              img: "./Assets/teaimages/society-tea-1-kg-0-20201118.jpg",
+              price: 520,
+              discount: 20
+            },
+            {
+              id: "i2",
+              name: "Tata Gold Leaf Tea 1 kg",
+              img: "./Assets/teaimages/tata-gold-leaf-tea-1-kg-0-20201118.jpg",
+              price: 495,
+              discount: 10
+            },
+            {
+              id: "i3",
+              name: "Tata Agni Leaf Tea 1 kg",
+              img: "./Assets/teaimages/tata-agni-leaf-tea-1-kg-0-20210330.jpg",
+              price: 255,
+              discount: 15
+            },
+            {
+              id: "i4",
+              name: "Wagh Bakri Premium Leaf Tea 500 g",
+              img: "./Assets/teaimages/wagh-bakri-premium-leaf-tea-500-g-0-20201118.jpg",
+              price: 241,
+              discount: 25
+            },
+            {
+              id: "i5",
+              name: "Red Label Leaf Tea 500 g",
+              img: "./Assets/teaimages/red-label-leaf-tea-500-g-carton-0-20210511.jpg",
+              price: 244,
+              discount: 36
+            },
+            {
+              id: "i6",
+              name: "Tata Gold Leaf Tea 500 g",
+              img: "./Assets/teaimages/tata-gold-leaf-tea-500-g-0-20201118.jpg",
+              price: 300,
+              discount: 5
+            },
+            {
+              id: "i7",
+              name: "Taj Mahal Tea 250 g (Carton)",
+              img: "./Assets/teaimages/taj-mahal-tea-250-g-carton-0-20210322.jpg",
+              price: 160,
+              discount: 20
+            },
+            {
+              id: "i8",
+              name: "Tata Premium Tea 1 kg",
+              img: "./Assets/teaimages/tata-premium-tea-1-kg-0-20210426.jpg",
+              price: 450,
+              discount: 15
+            }
+          ]
         },
         fresh_fruits: {
           banner_img: "./Assets/fruitsImages/fruitshomepage.jpg",

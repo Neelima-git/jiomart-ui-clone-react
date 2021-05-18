@@ -32,7 +32,7 @@ const Accordian = (props) => {
                             <h5>Categories</h5><hr/>
                             <Button color="light" onClick={toggle1} ><i className="fa fa-lg fa-angle-right"></i>  Fruits & Vegetables</Button>
                             <Collapse isOpen={isOpen1}>
-                            <Card>
+                            <Card className=".category-items">
                                 <CardBody>
                                 <ul>
                                 <li><a href="/content?category=fruits_vegetables&sub_category=fresh_fruits">Fresh Fruits</a></li>
