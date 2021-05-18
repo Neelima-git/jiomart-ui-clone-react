@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -15,19 +15,18 @@ import Terms from "./components/Terms";
 import Ewaste from "./components/Ewaste";
 import Policy from "./components/Policy";
 
-
 class App extends React.Component {
   render() {
     return (
-      <Router>
+      <Router basename="jiomart-ui-clone-react">
         <div className="App">
           <Navbar />
           <Switch>
-            <Route path="/content">
+            <Route exact path="/content">
               <Content />
             </Route>
             <Route path="/cart">
-              <Cart/>
+              <Cart />
             </Route>
             <Route path="/login">
               <Login />
@@ -51,7 +50,7 @@ class App extends React.Component {
               <Homepage />
             </Route>
           </Switch>
-          <Footer/>
+          <Footer />
         </div>
       </Router>
     );
@@ -59,4 +58,3 @@ class App extends React.Component {
 }
 
 export default App;
-
