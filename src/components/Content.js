@@ -253,7 +253,7 @@ class Content extends React.Component {
             {id: "p4", name: "Mango Badami"},
             {id: "p5", name: "Alphonso Mango"},
             {id: "p6", name: "Apple Royal Gala"},
-            {id: "p7", name: "Pears Green Imported"},np
+            {id: "p7", name: "Pears Green Imported"},
             {id: "p8", name: "Apple Red"},
             {id: "p9", name: "Banana Robusta"},
             {id: "p10", name: "Watermelon Kiran"},
