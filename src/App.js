@@ -18,7 +18,7 @@ import Policy from "./components/Policy";
 class App extends React.Component {
   render() {
     return (
-      <Router basename="/jiomart-ui-clone-react">
+      <Router>
         <div className="App">
           <Navbar />
           <Switch>
@@ -46,7 +46,7 @@ class App extends React.Component {
             <Route path="/Policy">
               <Policy />
             </Route>
-            <Route path="/jiomart-ui-clone-react" exact>
+            <Route path="/" exact>
               <Homepage />
             </Route>
           </Switch>
