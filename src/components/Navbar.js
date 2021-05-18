@@ -150,7 +150,7 @@ const Navbar = () => {
                         <li className="nav-item dropdown ">
                             <a className="nav-link  dropdown-toggle"   data-bs-toggle="dropdown">  Fruits & Vegetables  </a>
                             <ul className="dropdown-menu">
-                            <li><a className="dropdown-item" href="/content?category=fruits_vegetables&sub_category=fresh_fruits"> Fresh Fruits</a></li>
+                            <li><Link className="dropdown-item" to="/content?category=fruits_vegetables&sub_category=fresh_fruits"> Fresh Fruits</Link></li>
                             <li><a className="dropdown-item"> Fresh Vegetables </a></li>
                             <li><a className="dropdown-item"> Herbs & Seasonings </a></li>
                             <li><a className="dropdown-item"> Exoctic Fruits & Vegetables </a></li>
@@ -180,7 +180,7 @@ const Navbar = () => {
                             <li><a className="dropdown-item"> Salt, Sugar & Jaggery </a></li>
                             <li><a className="dropdown-item"> Soya Products, Wheat & Other </a></li>
                             <li><a className="dropdown-item"> Grains </a></li>
-                            <li><a className="dropdown-item" href="/content?category=staples&sub_category=dry_fruits"> Dry Fruits & Nuts</a></li>
+                            <li><Link className="dropdown-item" to="/content?category=staples&sub_category=dry_fruits"> Dry Fruits & Nuts</Link></li>
                             </ul>
                         </li>
                         <li className="nav-item dropdown">
@@ -201,7 +201,7 @@ const Navbar = () => {
                         <li className="nav-item dropdown">
                             <a className="nav-link  dropdown-toggle"   data-bs-toggle="dropdown">  Beverages </a>
                             <ul className="dropdown-menu">
-                            <li><a className="dropdown-item" href="/content?category=beverages&sub_category=tea"> Tea</a></li>
+                            <li><Link className="dropdown-item" to="/content?category=beverages&sub_category=tea"> Tea</Link></li>
                             <li><a className="dropdown-item"> Coffee </a></li>
                             <li><a className="dropdown-item"> Fruit Juices </a></li>
                             <li><a className="dropdown-item"> Energy & Soft Drinks </a></li>
@@ -212,7 +212,7 @@ const Navbar = () => {
                         <li className="nav-item dropdown">
                             <a className="nav-link  dropdown-toggle"   data-bs-toggle="dropdown">  Personal Care  </a>
                             <ul className="dropdown-menu">
-                            <li><a className="dropdown-item" href="/content?category=personal_care&sub_category=hair_care"> Hair Care</a></li>
+                            <li><Link className="dropdown-item" to="/content?category=personal_care&sub_category=hair_care"> Hair Care</Link></li>
                             <li><a className="dropdown-item"> Oral Care </a></li>
                             <li><a className="dropdown-item"> Skin Care </a></li>
                             <li><a className="dropdown-item"> Bath & Hand Wash </a></li>
