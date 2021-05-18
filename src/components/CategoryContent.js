@@ -35,26 +35,24 @@ class CategoryContent extends React.Component {
                 </div>
             </div>
             <div className="col-lg-10 m-lg-8 s-m-6">
-                <div className="card products">
-                    <div className="row justify-content">
-                        <CardColumns>
-                            {
-                                this.props.content.items.map((item) => {
-                                    return (
-                                        <Card id="product1">
-                                            <Badge color="danger">{item.discount}% off</Badge>
-                                            <CardImg src={item.img} alt="Card image cap" />
-                                            <CardBody>
-                                                <CardTitle tag="h5">{item.name}</CardTitle>
-                                                <CardSubtitle tag="h6" className="mb-2 text-muted"><del>₹{item.price/100.0}</del> <b>₹{item.price*item.discount/100.0}</b></CardSubtitle>
-                                                <Button color="primary" className="product-buy">Add to Cart <i className="fa fa-plus-circle" aria-hidden="true"></i></Button>
-                                            </CardBody>
-                                        </Card>
-                                    );
-                                })
-                            }
-                        </CardColumns>
-                    </div>
+                <div className="row justify-content">
+                    <CardColumns>
+                        {
+                            this.props.content.items.map((item) => {
+                                return (
+                                    <Card id={item.id}>
+                                        <Badge color="danger">{item.discount}% off</Badge>
+                                        <CardImg src={item.img} alt="Card image cap" />
+                                        <CardBody>
+                                            <CardTitle tag="h5">{item.name}</CardTitle>
+                                            <CardSubtitle tag="h6" className="mb-2 text-muted"><del>₹{item.price/100.0}</del> <b>₹{item.price*item.discount/100.0}</b></CardSubtitle>
+                                            <Button color="primary" className="product-buy">Add to Cart <i className="fa fa-plus-circle" aria-hidden="true"></i></Button>
+                                        </CardBody>
+                                    </Card>
+                                );
+                            })
+                        }
+                    </CardColumns>
                 </div>
             </div>
         </div>
