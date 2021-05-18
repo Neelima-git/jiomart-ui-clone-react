@@ -284,8 +284,63 @@ class Content extends React.Component {
           ]
         },
         dry_fruits: {
-          banner_img: "",
-          items: []
+          banner_img: "./Assets/staplesImages/dry-fruits-nuts-20201014.jpeg",
+          items: [{ 
+            id: "i1",
+            name: "Good Life Almonds 500g (Healthy)",
+            img: "./Assets/staplesImages/good-life-almonds-500-g-0-20200901.jpg",
+            price: 44900,
+            discount: 32
+          },
+          {
+            id: "i2",
+            name: "Regular Value Pack Plain Cashews 500g",
+            img: "./Assets/staplesImages/cashew-regular-value-pack-500-g-0-20210422.jpg",
+            price: 45000,
+            discount: 15
+          },
+          {
+            id: "i3",
+            name: "Good Life Mixed Dry Fruits 200g",
+            img: "./Assets/staplesImages/good-life-mixed-dry-fruits-200-g-0-20210310.jpg",
+            price: 15000,
+            discount: 10
+          },
+          {
+            id: "i4",
+            name: "Shree Salted Pistachios 100g",
+            img: "./Assets/staplesImages/shree-salted-pistachios-100-g-0-20200921.jpg",
+            price: 17000,
+            discount: 12
+          },
+          {
+            id: "i5",
+            name: "Sapphero Unshelled Walnuts 200g",
+            img: "./Assets/staplesImages/sapphero-unshelled-walnuts-200-g-0-20201020.jpg",
+            price:  61000,
+            discount: 18
+          },
+          {
+            id: "i6",
+            name: "Sapphero Dry Blueberries 250g",
+            img: "./Assets/staplesImages/sapphero-dry-blueberries-250-g-0-20201215.jpg",
+            price: 64000,
+            discount: 22
+          },
+          {
+            id: "i7",
+            name: "Sapphero Hazelnuts 250g Natural",
+            img: "./Assets/staplesImages/sapphero-hazelnuts-250-g-0-20201215.jpg",
+            price: 45500,
+            discount: 23 
+          },
+          {
+            id: "i8",
+            name: "Sapphero Delux Figs 250g Natural",
+            img: "./Assets/staplesImages/sapphero-delux-figs-250-g-0-20201020.jpg",
+            price: 52500,
+            discount: 21
+          }]
         },
         tea: {
           banner_img: "",
