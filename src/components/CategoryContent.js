@@ -40,7 +40,7 @@ class CategoryContent extends React.Component {
                         {
                             this.props.content.items.map((item) => {
                                 return (
-                                    <Card id={item.id}>
+                                    <Card id={item.id} key={item.id}>
                                         <Badge color="danger">{item.discount}% off</Badge>
                                         <CardImg src={item.img} alt="Card image cap" />
                                         <CardBody>
