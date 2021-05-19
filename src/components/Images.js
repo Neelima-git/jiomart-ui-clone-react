@@ -100,8 +100,7 @@ import homepage_card_9 from "../Assets/homepage/card9.jpg"
 import homepage_card_10 from "../Assets/homepage/card10.jpg"
 import homepage_card_11 from "../Assets/homepage/card11.jpg"
 import homepage_card_12 from "../Assets/homepage/card12.jpg"
-
-
+import login_banner from "../Assets/Login/login-banner.jpg" 
 
 const images = {
     hair_care_banner,
@@ -203,6 +202,7 @@ const images = {
     homepage_card_10,
     homepage_card_11,
     homepage_card_12,
+    login_banner,
 
 }
 

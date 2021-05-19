@@ -1,6 +1,6 @@
 /* eslint-disable eqeqeq */
 import React from "react"
-
+import Images from "./Images"
 import "./loginstyle.css"
 
 
@@ -37,7 +37,7 @@ class Login extends React.Component{
             <div className="container lgin-div mb-2">
         <div className="lgncont">
           <div className="mbl">
-            <img  src="./Assets/Login/login-banner.jpg" className="banner" alt="Banner"/>
+            <img  src={Images.login_banner} className="banner" alt="Banner"/>
           </div>
           <div className="form">
               <div className="formbd mt-4">
