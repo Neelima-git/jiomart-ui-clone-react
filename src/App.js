@@ -22,10 +22,7 @@ class App extends React.Component {
         <div className="App">
           <Navbar />
           <Switch>
-            <Route path="/" exact>
-              <Homepage />
-            </Route>
-            <Route path="/jiomart-ui-clone-react">
+            <Route path="/jiomart">
               <Homepage />
             </Route>
             <Route path="/content/:category/:sub_category">
