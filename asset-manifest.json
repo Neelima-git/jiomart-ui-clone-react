@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/jiomart-ui-clone-react/static/css/main.11e1355c.chunk.css",
-    "main.js": "/jiomart-ui-clone-react/static/js/main.f2cb92b1.chunk.js",
-    "main.js.map": "/jiomart-ui-clone-react/static/js/main.f2cb92b1.chunk.js.map",
+    "main.js": "/jiomart-ui-clone-react/static/js/main.84031b58.chunk.js",
+    "main.js.map": "/jiomart-ui-clone-react/static/js/main.84031b58.chunk.js.map",
     "runtime-main.js": "/jiomart-ui-clone-react/static/js/runtime-main.e7068fa7.js",
     "runtime-main.js.map": "/jiomart-ui-clone-react/static/js/runtime-main.e7068fa7.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/jiomart-ui-clone-react/static/css/2.4c97ca4f.chunk.css",
@@ -93,6 +93,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.85ce0051.chunk.js",
     "static/css/main.11e1355c.chunk.css",
-    "static/js/main.f2cb92b1.chunk.js"
+    "static/js/main.84031b58.chunk.js"
   ]
 }
