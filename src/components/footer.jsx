@@ -11,11 +11,11 @@ class Footer extends React.Component{
           {/* <!--Footer Content Mostpopular list/ hidded on small screens--> */}
             <ul className="col-md-3 pl-5 ml-1 mbl">
                 <li><h2>MOST POPULAR CATEGORIES</h2></li>
-                <li><Link to="/content/fruits_vegetables/fresh_fruits">Staples</Link></li>
+                <li><Link to="/content/fruits_vegetables/fresh_fruits">Fruits and Vegetables</Link></li>
                 <li><Link to="/content/beverages/tea">Bevereges</Link></li>
                 <li><Link to="/content/personal_care/hair_care">Personal Care</Link></li>
                 <li><Link to="/">Home Care</Link></li>
-                <li><Link to="/content/staples/dry_fruits">Fruits and Vegetables</Link></li>
+                <li><Link to="/content/staples/dry_fruits">Staples</Link></li>
                 <li><Link to="/">Baby Care</Link></li>
                 <li><Link to="/">Snacks & Branded Foods</Link></li>
                 <li><Link to="/">Dairy & Bakery</Link></li>
