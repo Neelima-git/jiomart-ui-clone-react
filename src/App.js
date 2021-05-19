@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 
 //Importing components
 import Navbar from "./components/Navbar";
@@ -18,11 +18,11 @@ import Policy from "./components/Policy";
 class App extends React.Component {
   render() {
     return (
-      <Router >
+      <Router basename={process.env.PUBLIC_URL}>
         <div className="App">
           <Navbar />
           <Switch>
-            <Route path="/jiomart-ui-clone-react">
+            <Route path="/">
               <Homepage />
             </Route>
             <Route path="/content/:category/:sub_category">
