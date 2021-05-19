@@ -397,56 +397,56 @@ export const Content = () => {
             id: "i1",
             name: "Society Tea 1 kg",
             img: Images.tea_1,
-            price: 520,
+            price: 52000,
             discount: 20
           },
           {
             id: "i2",
             name: "Tata Gold Leaf Tea 1 kg",
             img: Images.tea_2,
-            price: 495,
+            price: 49500,
             discount: 10
           },
           {
             id: "i3",
             name: "Tata Agni Leaf Tea 1 kg",
             img: Images.tea_3,
-            price: 255,
+            price: 25500,
             discount: 15
           },
           {
             id: "i4",
             name: "Wagh Bakri Leaf Tea 500 g",
             img: Images.tea_4,
-            price: 241,
+            price: 24100,
             discount: 25
           },
           {
             id: "i5",
             name: "Red Label Leaf Tea 500 g",
             img: Images.tea_5,
-            price: 244,
+            price: 24400,
             discount: 36
           },
           {
             id: "i6",
             name: "Tata Gold Leaf Tea 500 g",
             img: Images.tea_6,
-            price: 300,
+            price: 30000,
             discount: 5
           },
           {
             id: "i7",
             name: "Taj Mahal Tea 250 g (Carton)",
             img: Images.tea_7,
-            price: 160,
+            price: 16000,
             discount: 20
           },
           {
             id: "i8",
             name: "Tata Premium Tea 1 kg",
             img: Images.tea_8,
-            price: 450,
+            price: 45000,
             discount: 15
           }
         ]
