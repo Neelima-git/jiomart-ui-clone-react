@@ -25,28 +25,28 @@ class App extends React.Component {
             <Route path="/jiomart-ui-clone-react">
               <Homepage />
             </Route>
-            <Route path="/content/:category/:sub_category">
+            <Route path="/jiomart-ui-clone-react/content/:category/:sub_category">
               <Content />
             </Route>
-            <Route path="/cart">
+            <Route path="/jiomart-ui-clone-react/cart">
               <Cart />
             </Route>
-            <Route path="/login">
+            <Route path="/jiomart-ui-clone-react/login">
               <Login />
             </Route>
-            <Route path="/Aboutus">
+            <Route path="/jiomart-ui-clone-react/Aboutus">
               <Aboutus />
             </Route>
-            <Route path="/faqs">
+            <Route path="/jiomart-ui-clone-react/faqs">
               <Faqs />
             </Route>
-            <Route path="/terms">
+            <Route path="/jiomart-ui-clone-react/terms">
               <Terms />
             </Route>
-            <Route path="/ewaste">
+            <Route path="/jiomart-ui-clone-react/ewaste">
               <Ewaste />
             </Route>
-            <Route path="/Policy">
+            <Route path="/jiomart-ui-clone-react/Policy">
               <Policy />
             </Route>
           </Switch>
