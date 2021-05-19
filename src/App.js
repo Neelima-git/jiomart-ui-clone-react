@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { HashRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 //Importing components
 import Navbar from "./components/Navbar";
@@ -18,7 +18,7 @@ import Policy from "./components/Policy";
 class App extends React.Component {
   render() {
     return (
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router >
         <div className="App">
           <Navbar />
           <Switch>
