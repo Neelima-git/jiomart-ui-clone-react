@@ -1,6 +1,6 @@
 {
-  "homepage": "https://neelima-git.github.io/jiomart-ui-clone-react",
-  "name": "jiomart-ui-clone",
+  "homepage": "https://neelima-git.github.io/jiomart",
+  "name": "jiomart",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
