@@ -3,6 +3,7 @@ import {Modal} from "bootstrap"
 import React from "react"
 import {Link} from "react-router-dom";  
 import "./footerstyle.css"
+import Images from "./Images"
 class Footer extends React.Component{
     render(){
        return( 
@@ -15,7 +16,7 @@ class Footer extends React.Component{
                 <li><Link to="/content/beverages/tea">Bevereges</Link></li>
                 <li><Link to="/content/personal_care/hair_care">Personal Care</Link></li>
                 <li><Link to="/">Home Care</Link></li>
-                <li><Link to="/content/staples/dry_fruits">Staples</Link></li>
+                <li><Link to="/content/staples/dry_fruits"></Link></li>
                 <li><Link to="/">Baby Care</Link></li>
                 <li><Link to="/">Snacks & Branded Foods</Link></li>
                 <li><Link to="/">Dairy & Bakery</Link></li>
@@ -46,15 +47,15 @@ class Footer extends React.Component{
                 <br className="mbl"/>
                 <h2 className="mbl">DOWNLOAD APP</h2>
                 <br className="mbl"/>
-                <Link to="/" className="mr-3 mbl" data-toggle="modal" data-target="#download"><img src="./Assets/appstore/play_store.png" alt=""/></Link>
-                <Link to="/" className="mbl" data-toggle="modal" data-target="#download1"><img src="./Assets/appstore/ios_store.png" alt="hello"/></Link>
+                <Link to="/" className="mr-3 mbl" data-toggle="modal" data-target="#download"><img src={Images.play_store} alt=""/></Link>
+                <Link to="/" className="mbl" data-toggle="modal" data-target="#download1"><img src={Images.ios_store} alt="hello"/></Link>
             </div>
             
         </div>
         {/* <!--Mobile Responive Modal Toogle--> */}
         <div className="fs text-center"><Link to="/" className="mr-3 " data-toggle="modal" 
-            data-target="#download"><img src="./Assets/appstore/play_store.png" alt="" /></Link>
-            <Link to="/" data-toggle="modal" data-target="#download1"><img src="./Assets/appstore/ios_store.png" alt="" /></Link></div>
+            data-target="#download"><img src={Images.play_store} alt="" /></Link>
+            <Link to="/" data-toggle="modal" data-target="#download1"><img src={Images.ios_store} alt="" /></Link></div>
         <div></div>
         {/* <!--Footer Copyright--> */}
         <div className="fborder mt-3 p-3">
@@ -73,7 +74,7 @@ class Footer extends React.Component{
                   </button>
                 </div>
                 <div className="modal-body">
-                  <span><img src="./Assets/appstore/play_store.png" alt=""/></span>
+                  <span><img src={Images.play_store} alt=""/></span>
                 </div>
                 <div className="modal-footer">
                   <a href="https://play.google.com/store/apps/details?id=com.jpl.jiomart" target="_blank   " className="btn btn-primary">Download</a>
@@ -91,7 +92,7 @@ class Footer extends React.Component{
                   </button>
                 </div>
                 <div className="modal-body">
-                  <span ><img src="./Assets/appstore/ios_store.png" alt=""/></span>
+                  <span ><img src={Images.ios_store} alt=""/></span>
                 </div>
                 <div className="modal-footer">
                   <a href="https://apps.apple.com/in/app/jiomart/id1522085683" target="_blank  " className="btn btn-primary">Download</a>

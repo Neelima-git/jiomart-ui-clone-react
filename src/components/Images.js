@@ -103,6 +103,9 @@ import homepage_card_12 from "../Assets/homepage/card12.jpg"
 
 import login_banner from "../Assets/Login/login-banner.jpg" 
 import add_to_cart from "../Assets/emptycart.svg"
+import play_store from "../Assets/appstore/play_store.png"
+import ios_store from "../Assets/appstore/ios_store.png"
+
 
 const images = {
     hair_care_banner,
@@ -206,6 +209,8 @@ const images = {
     homepage_card_12,
     login_banner,
     add_to_cart,
+    play_store,
+    ios_store
 
 }
 
