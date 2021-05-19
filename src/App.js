@@ -25,7 +25,7 @@ class App extends React.Component {
             <Route path="/" exact>
               <Homepage />
             </Route>
-            <Route path="/content">
+            <Route path="/content/:category/:sub_category">
               <Content />
             </Route>
             <Route path="/cart">
