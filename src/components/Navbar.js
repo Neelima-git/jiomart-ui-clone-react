@@ -77,7 +77,7 @@ const Navbar = () => {
             </div>
 
             <ul className="list-unstyled components" >
-                <Link to="/jiomart"><p>Home</p></Link>
+                <Link to="/jiomart-ui-clone-react"><p>Home</p></Link>
                 <a href="/"><p>Shop by category</p></a>
                 <p>My List</p>
                 <p>My Subscription</p>
