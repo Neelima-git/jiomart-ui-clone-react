@@ -17,6 +17,16 @@ import dry_fruits_5 from "../Assets/staplesImages/sapphero-unshelled-walnuts-200
 import dry_fruits_6 from "../Assets/staplesImages/sapphero-dry-blueberries-250-g-0-20201215.jpg"
 import dry_fruits_7 from "../Assets/staplesImages/sapphero-hazelnuts-250-g-0-20201215.jpg"
 import dry_fruits_8 from "../Assets/staplesImages/sapphero-delux-figs-250-g-0-20201020.jpg"
+
+import fresh_fruits_banner from "../Assets/fruitsImages/fruitshomepage.jpg"
+import fresh_fruits_1 from "../Assets/fruitsImages/fruits1-grapes.jpg"
+import fresh_fruits_2 from "../Assets/fruitsImages/2-dates.jpg"
+import fresh_fruits_3 from "../Assets/fruitsImages/2-dates.jpg"
+import fresh_fruits_4 from "../Assets/fruitsImages/3-mango.jpg"
+import fresh_fruits_5 from "../Assets/fruitsImages/mango-totapuri-5.jpg"
+import fresh_fruits_6 from "../Assets/fruitsImages/alphonso-mango-6.jpg"
+import fresh_fruits_7 from "../Assets/fruitsImages/apple-royal-gala-7.jpg"
+import fresh_fruits_8 from "../Assets/fruitsImages/pears-imported-green-8.jpg"
 const images = {
     hair_care_banner,
     hair_care_1,
@@ -35,7 +45,16 @@ const images = {
     dry_fruits_5,
     dry_fruits_6,
     dry_fruits_7,
-    dry_fruits_8
+    dry_fruits_8,
+    fresh_fruits_banner,
+    fresh_fruits_1,
+    fresh_fruits_2,
+    fresh_fruits_3,
+    fresh_fruits_4,
+    fresh_fruits_5,
+    fresh_fruits_6,
+    fresh_fruits_7,
+    fresh_fruits_8
 
 }
 
