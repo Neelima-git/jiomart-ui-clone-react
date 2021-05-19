@@ -77,7 +77,7 @@ const Navbar = () => {
             </div>
 
             <ul className="list-unstyled components" >
-                <a href="/"><p>Home</p></a>
+                <Link to="/jiomart"><p>Home</p></Link>
                 <a href="/"><p>Shop by category</p></a>
                 <p>My List</p>
                 <p>My Subscription</p>
