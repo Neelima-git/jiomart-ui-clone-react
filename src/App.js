@@ -25,6 +25,9 @@ class App extends React.Component {
             <Route path="/" exact>
               <Homepage />
             </Route>
+            <Route path="/jiomart-ui-clone-react">
+              <Homepage />
+            </Route>
             <Route path="/content/:category/:sub_category">
               <Content />
             </Route>
