@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Collapse, Button, CardBody, Card } from 'reactstrap';
+import {Link} from "react-router-dom";  
 
 
 import "./Common.css"
@@ -35,7 +36,7 @@ const Accordian = (props) => {
                             <Card className=".category-items">
                                 <CardBody>
                                 <ul>
-                                <li><a href="/content?category=fruits_vegetables&sub_category=fresh_fruits">Fresh Fruits</a></li>
+                                <li><Link to="/content/fruits_vegetables/fresh_fruits">Fresh Fruits</Link></li>
                                 <li>Fresh Vegetables</li><li>Herbs & Seasonings</li><li>Exotic Fruits and Vegetables</li></ul>
                                 </CardBody>
                             </Card>
@@ -53,7 +54,7 @@ const Accordian = (props) => {
                             <Card>
                                 <CardBody>
                                 <ul><li>Atta, Flours & Sooji</li><li>Dals & Pulses</li><li>Rice & Rice Products</li><li>Edible Oils</li><li>Masalas & Spices</li><li>Salt, Sugar & Jaggery</li><li>Soya Products,<br/> Wheat & Other Grains</li>
-                                <li><a href="/content?category=staples&sub_category=dry_fruits">Dry Fruits & Nuts</a></li>
+                                <li><Link to="/content/staples/dry_fruits">Dry Fruits & Nuts</Link></li>
                                 </ul>
                                 </CardBody>
                             </Card>
@@ -71,7 +72,7 @@ const Accordian = (props) => {
                             <Card>
                                 <CardBody>
                                 <ul>
-                                <li><a href="/content?category=beverages&sub_category=tea">Tea</a></li>
+                                <li><Link to="/content/beverages/tea">Tea</Link></li>
                                 <li>Coffee</li><li>Fruit juices</li><li>Energy & Soft Drinks</li><li>Health Drink & Supplement</li><li>Soda & Flavoured Water</li></ul>
                                 </CardBody>
                             </Card>
@@ -81,7 +82,7 @@ const Accordian = (props) => {
                             <Card>
                                 <CardBody>
                                 <ul>
-                                    <li><a href="/content?category=personal_care&sub_category=hair_care">Hair Care</a></li>
+                                    <li><Link to="/content/personal_care/hair_care">Hair Care</Link></li>
                                     <li>Oral Care</li><li>Skin Care</li><li>Bath & Hand Wash</li><li>Body Wash & <br/>Bathing Accesories</li><li>Feminine Hygiene</li><li>Men's Grooming</li><li>Deo & Fragnances</li><li>Health & Wellness</li><li>Makeup</li></ul>
                                 </CardBody>
                             </Card>
