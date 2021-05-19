@@ -22,7 +22,10 @@ class App extends React.Component {
         <div className="App">
           <Navbar />
           <Switch>
-            <Route exact path="/content">
+            <Route path="/" exact>
+              <Homepage />
+            </Route>
+            <Route path="/content">
               <Content />
             </Route>
             <Route path="/cart">
@@ -45,9 +48,6 @@ class App extends React.Component {
             </Route>
             <Route path="/Policy">
               <Policy />
-            </Route>
-            <Route path="/" exact>
-              <Homepage />
             </Route>
           </Switch>
           <Footer />
