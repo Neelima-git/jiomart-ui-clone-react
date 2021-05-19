@@ -27,6 +27,16 @@ import fresh_fruits_5 from "../Assets/fruitsImages/mango-totapuri-5.jpg"
 import fresh_fruits_6 from "../Assets/fruitsImages/alphonso-mango-6.jpg"
 import fresh_fruits_7 from "../Assets/fruitsImages/apple-royal-gala-7.jpg"
 import fresh_fruits_8 from "../Assets/fruitsImages/pears-imported-green-8.jpg"
+
+import tea_banner from "../Assets/teaimages/tea-20200712.jpg"
+import tea_1 from "../Assets/teaimages/society-tea-1-kg-0-20201118.jpg"
+import tea_2 from "../Assets/teaimages/tata-gold-leaf-tea-1-kg-0-20201118.jpg"
+import tea_3 from "../Assets/teaimages/tata-agni-leaf-tea-1-kg-0-20210330.jpg"
+import tea_4 from "../Assets/teaimages/wagh-bakri-premium-leaf-tea-500-g-0-20201118.jpg"
+import tea_5 from "../Assets/teaimages/red-label-leaf-tea-500-g-carton-0-20210511.jpg"
+import tea_6 from "../Assets/teaimages/tata-gold-leaf-tea-500-g-0-20201118.jpg"
+import tea_7 from "../Assets/teaimages/taj-mahal-tea-250-g-carton-0-20210322.jpg"
+import tea_8 from "../Assets/teaimages/tata-premium-tea-1-kg-0-20210426.jpg"
 const images = {
     hair_care_banner,
     hair_care_1,
@@ -54,7 +64,17 @@ const images = {
     fresh_fruits_5,
     fresh_fruits_6,
     fresh_fruits_7,
-    fresh_fruits_8
+    fresh_fruits_8,
+    tea_banner,
+    tea_1,
+    tea_2,
+    tea_3,
+    tea_4,
+    tea_5,
+    tea_6,
+    tea_7,
+    tea_8
+
 
 }
 

@@ -391,61 +391,61 @@ export const Content = () => {
         }]
       },
       tea: {
-        banner_img: "./Assets/teaimages/tea-20200712.jpg",
+        banner_img: Images.tea_banner,
         items: [
           {
             id: "i1",
             name: "Society Tea 1 kg",
-            img: "./Assets/teaimages/society-tea-1-kg-0-20201118.jpg",
+            img: Images.tea_1,
             price: 520,
             discount: 20
           },
           {
             id: "i2",
             name: "Tata Gold Leaf Tea 1 kg",
-            img: "./Assets/teaimages/tata-gold-leaf-tea-1-kg-0-20201118.jpg",
+            img: Images.tea_2,
             price: 495,
             discount: 10
           },
           {
             id: "i3",
             name: "Tata Agni Leaf Tea 1 kg",
-            img: "./Assets/teaimages/tata-agni-leaf-tea-1-kg-0-20210330.jpg",
+            img: Images.tea_3,
             price: 255,
             discount: 15
           },
           {
             id: "i4",
             name: "Wagh Bakri Leaf Tea 500 g",
-            img: "./Assets/teaimages/wagh-bakri-premium-leaf-tea-500-g-0-20201118.jpg",
+            img: Images.tea_4,
             price: 241,
             discount: 25
           },
           {
             id: "i5",
             name: "Red Label Leaf Tea 500 g",
-            img: "./Assets/teaimages/red-label-leaf-tea-500-g-carton-0-20210511.jpg",
+            img: Images.tea_5,
             price: 244,
             discount: 36
           },
           {
             id: "i6",
             name: "Tata Gold Leaf Tea 500 g",
-            img: "./Assets/teaimages/tata-gold-leaf-tea-500-g-0-20201118.jpg",
+            img: Images.tea_6,
             price: 300,
             discount: 5
           },
           {
             id: "i7",
             name: "Taj Mahal Tea 250 g (Carton)",
-            img: "./Assets/teaimages/taj-mahal-tea-250-g-carton-0-20210322.jpg",
+            img: Images.tea_7,
             price: 160,
             discount: 20
           },
           {
             id: "i8",
             name: "Tata Premium Tea 1 kg",
-            img: "./Assets/teaimages/tata-premium-tea-1-kg-0-20210426.jpg",
+            img: Images.tea_8,
             price: 450,
             discount: 15
           }
