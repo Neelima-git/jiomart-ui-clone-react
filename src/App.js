@@ -18,11 +18,11 @@ import Policy from "./components/Policy";
 class App extends React.Component {
   render() {
     return (
-      <Router basename="/jiomart-ui-clone-react" >
+      <Router >
         <div className="App">
           <Navbar />
           <Switch>
-            <Route path="/">
+            <Route path="/jiomart-ui-clone-react">
               <Homepage />
             </Route>
             <Route path="/content/:category/:sub_category">
