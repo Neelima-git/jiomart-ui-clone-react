@@ -1,4 +1,4 @@
-import React from 'react'
+import {useEffect } from "react";
 import SideBar from "./SideBar";
 import CategoryContent from "./CategoryContent";
 import { useParams } from 'react-router-dom';
@@ -6,6 +6,11 @@ import "./Common.css"
 import Images from "./Images"
 
 export const Content = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   let { category, sub_category } = useParams();
 
   const state = {
