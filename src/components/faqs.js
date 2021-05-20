@@ -1,4 +1,4 @@
-import React from 'react'
+import { useEffect } from "react";
 import "./faqs.css"
 const Faqscript = ()=>{
   var acc = document.getElementsByClassName("accordion");
@@ -18,6 +18,10 @@ const Faqscript = ()=>{
 }
 
 export const Faqs = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div>
   

@@ -1,7 +1,12 @@
-import React from 'react'
+import { useEffect } from "react";
 import "./CustomerServices.css"
 
 export const Policy = () => {
+
+    useEffect(() => {
+      window.scrollTo(0, 0)
+    }, [])
+
     return (
         <div>
             <div class="container px-3 py-3">
